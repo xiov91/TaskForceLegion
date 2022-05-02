@@ -7,6 +7,7 @@
 body {
     color: #666699;
     font-family: Helvetica, Arial, sans-serif;
+    background-color: #000000;
 }
 
 header {
@@ -17,7 +18,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
+    color: antiquewhite;
     margin: 0;
     display: inline;
 }
@@ -25,11 +26,13 @@ header h1 {
 header h3 {
     font-size: 24px;
     margin: 0;
+    background-color: #666699;
 }
 
 header a {
     text-decoration: none;
-    color:antiquewhite
+    color:antiquewhite;
+    background-color:#666699;
 }
 
 header nav {
@@ -72,4 +75,16 @@ footer a {
 
 footer p {
     color:antiquewhite;
+    background-color: #666699;
+}
+
+.comic-page {
+    max-width: 75%;
+    height: auto;
+    
+}
+
+.comic {
+    display: flex;
+    flex: start;
 }
