@@ -86,5 +86,12 @@ footer p {
 
 .comic {
     display: flex;
-    flex: start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-first {
+    align-self: center;
 }
